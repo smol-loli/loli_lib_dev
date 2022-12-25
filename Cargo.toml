@@ -1,0 +1,12 @@
+[package]
+name = "loli_lib"
+version = "0.0.1"
+rust-version = "1.68.0"
+edition = "2021"
+authors = ["Kazuki <github@loli-chan.com>"]
+description = "Test version of my upcoming (hopefully) library"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
