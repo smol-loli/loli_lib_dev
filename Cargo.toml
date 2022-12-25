@@ -1,5 +1,5 @@
 [package]
-name = "loli_lib"
+name = "loli_lib_dev"
 version = "0.0.1"
 rust-version = "1.68.0"
 edition = "2021"
