@@ -1,4 +1,4 @@
-pub fn add(left: usize, right: usize) -> usize {
+pub fn add<T: core::ops::Add<Output = T>>(left: T, right: T) -> T {
     left + right
 }
 
