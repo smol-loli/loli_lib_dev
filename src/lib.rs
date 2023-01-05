@@ -8,7 +8,12 @@ use crypto::whirlpool::Whirlpool;
 
 // Module containing generic functions at some point (currently none)
 pub mod lstd {
-
+    /// Just adds together two numbers lol
+    /// Thanks for mrMiiao for making it polymorphic!
+    ///
+    pub fn add<T: core::ops::Add<Output = T>>(left: T, right: T) -> T {
+        left + right
+    }
 }
 
 /// Module containing all implemented hashing methods
@@ -114,7 +119,14 @@ pub mod hashing {
 #[cfg(test)]// 
 mod tests {
     use crate::hashing::{hash_ripemd160, hash_sha3_512, hash_whirlpool};
+    use crate::lstd::{add};
     use super::*;
+
+    #[test]
+    fn it_works_add() {
+        let result = add(2, 2);
+        assert_eq!(result, 4);
+    }
 
     #[test]
     fn it_works_hash_sha3_512() {
