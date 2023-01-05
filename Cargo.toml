@@ -5,7 +5,6 @@ authors = ["Kazuki <github@loli-chan.com>"]
 edition = "2021"
 rust-version = "1.68.0"
 description = "Fun project to get used to cargo and rust programming"
-documentation = ""
 readme = "README.md"
 homepage = "https://github.com/smol-loli/loli_lib_dev/"
 repository = "https://github.com/smol-loli/loli_lib_dev/"
