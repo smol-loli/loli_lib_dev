@@ -1,12 +1,18 @@
 [package]
 name = "loli_lib_dev"
-version = "0.0.1"
-rust-version = "1.68.0"
-edition = "2021"
+version = "0.1.1"
 authors = ["Kazuki <github@loli-chan.com>"]
-description = "Test version of my upcoming (hopefully) library"
+edition = "2021"
+rust-version = "1.68.0"
+description = "Fun project to get used to cargo and rust programming"
+documentation = ""
+readme = "README.md"
+repository = "https://github.com/smol-loli/loli_lib_dev/"
 license = "MIT"
-
+keywords = ["hashing", "sha3", "fun", "experimental"]
+categories = ["algorithms"]
+exclude = ["/.idea", "./target", "loli_lib_dev.iml"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rust-crypto = "0.2.36"
