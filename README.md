@@ -20,3 +20,6 @@ let hashed = hash_sha3_512(input);
 
 ## Contribution
 If you find a bug or want to contribute / improve this crate feel free to open an issue or make a Pull Request on GitHub.
+
+# Contributors
+@mrMiiao
